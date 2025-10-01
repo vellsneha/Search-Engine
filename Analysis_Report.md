@@ -11,7 +11,6 @@ I tested 5 different query types to analyze how the system responds:
 * **Auto-correct:** Not needed.
 * **Errors:** None.
 
----
 
 ### Query 2: **"hapiness"** (Misspelling)
 
@@ -20,7 +19,6 @@ I tested 5 different query types to analyze how the system responds:
 * **Auto-correct:** Critical — without it, no results would appear.
 * **Errors:** None, correction worked perfectly.
 
----
 
 ### Query 3: **"love story"** (Multi-word query)
 
@@ -29,7 +27,6 @@ I tested 5 different query types to analyze how the system responds:
 * **Auto-correct:** Not needed.
 * **Errors:** Slight semantic looseness (sometimes “story” matches contexts not strictly about love stories).
 
----
 
 ### Query 4: **"xyzabc"** (Nonsense / Out-of-Vocabulary)
 
@@ -38,7 +35,6 @@ I tested 5 different query types to analyze how the system responds:
 * **Auto-correct:** Could not help — no close candidates within distance 2.
 * **Errors:** No meaningful retrieval — results were noise, but system degraded gracefully instead of failing.
 
----
 
 ### Query 5: **"sunsett"** (Misspelling)
 
@@ -47,7 +43,6 @@ I tested 5 different query types to analyze how the system responds:
 * **Auto-correct:** Crucial — without it, no matches.
 * **Errors:** None, correct fix applied.
 
----
 
 **Summary of Queries:**
 
