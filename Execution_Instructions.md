@@ -52,7 +52,7 @@ search/
 * Paragraphs separated by blank lines
 
 Important: The corpus is not included in this repository (file size too large).
-You need to create a new folder named corpus/ inside the project directory and place all your .txt book files there before running the search engine.
+You need to create a new folder named corpus/ inside the project directory and place all your .txt book files there before running the search engine. \\
 Link to the Data Resource: https://shibamoulilahiri.github.io/gutenberg_dataset.html
 
 ## 3. Execution Methods
