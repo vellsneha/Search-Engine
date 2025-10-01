@@ -6,7 +6,6 @@
 
 This guide explains how to set up, run, and use the **Search Engine with Auto-Correct**. It covers system requirements, dependencies, file organization, execution methods, configuration, troubleshooting, and testing.
 
----
 
 ## 1. Prerequisites
 
@@ -29,7 +28,6 @@ Or install from requirements file:
 pip install -r requirements.txt
 ```
 
----
 
 ## 2. File Structure Setup
 
@@ -55,7 +53,7 @@ search/
 
 Important: The corpus is not included in this repository (file size too large).
 You need to create a new folder named corpus/ inside the project directory and place all your .txt book files there before running the search engine.
----
+Link to the Data Resource: https://shibamoulilahiri.github.io/gutenberg_dataset.html
 
 ## 3. Execution Methods
 
@@ -89,7 +87,6 @@ Enter choice (0–3): 1
 
 Results returned with similarity ranking.
 
----
 
 ### Method 2: Programmatic Usage
 
@@ -118,7 +115,6 @@ results = process_query("hapiness", vocab, whole_words, tokenizer,
 display_results(results)
 ```
 
----
 
 ## 4. Configuration Options
 
@@ -126,7 +122,6 @@ display_results(results)
 * **Auto-correct edit distance:** `threshold=2`
 * **Number of results:** `top_k=10`
 
----
 
 ## 5. Troubleshooting
 
@@ -144,7 +139,6 @@ display_results(results)
   * Reduce `vocab_size` (e.g., 2000)
   * Load fewer files with `sample_n`
 
----
 
 ## 6. Testing Queries
 
@@ -167,4 +161,3 @@ display_results(results)
 
 * `"xyzabc"` → subword breakdown
 
----
