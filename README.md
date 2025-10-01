@@ -18,7 +18,7 @@ A lightweight search engine that combines **Byte Pair Encoding (BPE) tokenizatio
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/vellsneha/Search-Engine-Using-BPE-and-Edit-Distance.git
+git clone https://github.com/vellsneha/Search-Engine.git
 cd search
 pip install -r requirements.txt
 ```
