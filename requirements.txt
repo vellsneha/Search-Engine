@@ -1,0 +1,12 @@
+# Search Engine with Auto-Correct - Dependencies
+
+# Core BPE tokenization library
+tokenizers>=0.13.0
+
+# Standard library dependencies (included with Python)
+# - os
+# - re  
+# - math
+# - collections
+# - tempfile
+# - random
