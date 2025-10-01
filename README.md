@@ -4,7 +4,6 @@
 
 A lightweight search engine that combines **Byte Pair Encoding (BPE) tokenization** and an **edit-distance-based auto-correct system** to handle misspellings and out-of-vocabulary words. Built as part of a course project—fun to build and a great way to explore how search engines work!
 
----
 
 ## ✨ Features
 
@@ -13,7 +12,6 @@ A lightweight search engine that combines **Byte Pair Encoding (BPE) tokenizatio
 * **Cosine Similarity Ranking** for relevance
 * **Handles OOV words** gracefully
 
----
 
 ## ⚙️ Installation
 
@@ -23,7 +21,6 @@ cd search
 pip install -r requirements.txt
 ```
 
----
 
 ## 🚀 Usage
 
@@ -48,7 +45,6 @@ results = process_query("beutiful", vocab, extract_whole_words_from_corpus(parag
 display_results(results)
 ```
 
----
 
 ## ⚡ How It Works
 
@@ -69,7 +65,6 @@ Edit distance measures how many operations (insert, delete, substitute) are need
 
 👉 Together, **BPE handles unknown words**, and **edit distance fixes misspellings**, making search results both flexible and accurate.
 
----
 
 ## 📝 Example Queries
 
@@ -77,16 +72,13 @@ Edit distance measures how many operations (insert, delete, substitute) are need
 * `hapiness` → Suggests **happiness**
 * `sunsett` → Suggests **sunset**
 
----
 
 ## 📚 Project Note
 
 This was a **course project**—a hands-on dive into **tokenization, auto-correct algorithms, and information retrieval**. I really enjoyed building it and learned a lot about search systems.
 
----
 
 ## 📬 Contact
 
 Feel free to open an issue if you’d like to discuss improvements!
 
----
